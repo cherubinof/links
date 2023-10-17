@@ -11,9 +11,9 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="">
                 <i class="bi-back"></i>
-                <span>Topic</span>
+                <span>Link</span>
             </a>
 
             <div class="d-lg-none ms-auto me-4">
@@ -27,34 +27,41 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-lg-5 me-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link click-scroll tex-danger" href="#section_1">Home</a>
+                        <a class="nav-link click-scroll text-primary" href="#section_1">Accueil</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">Browse Topics</a>
+                        <a class="nav-link click-scroll text-primary" href="#section_2">Competences</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                        <a class="nav-link click-scroll text-primary" href="#section_3">Entreprise</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">FAQs</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                        <a class="nav-link click-scroll text-primary" href="#section_4">FAQs</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
+                            <li><a class="dropdown-item" href="">Administration basse de donnees</a></li>
 
-                            <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
+                            <li><a class="dropdown-item" href="">Application web</a></li>
+                            <li><a class="dropdown-item" href="">Application mobile</a></li>
+                            <li><a class="dropdown-item" href="">Application desktop</a></li>
+                            <li><a class="dropdown-item" href="">Maketings</a></li>
+                            <li><a class="dropdown-item" href="">message instantane</a></li>
                         </ul>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll text-primary" href="#section_5">Contact</a>
+                    </li>
+
+                    
+                    
                 </ul>
 
                 <div class="d-none d-lg-block">
@@ -70,9 +77,9 @@
             <div class="row">
 
                 <div class="col-lg-8 col-12 mx-auto">
-                    <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
+                    <h1 class="text-white text-center">Découvrir. Apprendre Apprécier</h1>
 
-                    <h6 class="text-center">platform for creatives around the world</h6>
+                    <h6 class="text-center">Entreprise de services numeriques</h6>
 
                     <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
                         <div class="input-group input-group-lg">
@@ -80,7 +87,7 @@
                                 
                             </span>
 
-                            <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
+                            <input name="keyword" type="search" class="form-control" id="keyword" placeholder=" Code, Marketing,  ..." aria-label="Search">
 
                             <button type="submit" class="form-control">Search</button>
                         </div>
@@ -101,15 +108,15 @@
                         <a href="topics-detail.html">
                             <div class="d-flex">
                                 <div>
-                                    <h5 class="mb-2">Web Design</h5>
+                                    <h5 class="mb-2">Logiciel</h5>
 
-                                    <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                                    <p class="mb-0">Applications web <br> Application desktop <br> Application mobile</p>
                                 </div>
 
                                 <span class="badge bg-design rounded-pill ms-auto">14</span>
                             </div>
 
-                            <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                            <img src="{% static 'images/topics/undraw_Remote_design_team_re_urdx.png' %}" class="custom-block-image img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -117,22 +124,22 @@
                 <div class="col-lg-6 col-12">
                     <div class="custom-block custom-block-overlay">
                         <div class="d-flex flex-column h-100">
-                            <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+                            <img src="{% static 'images/businesswoman-using-tablet-analysis.jpg' %}" class="custom-block-image img-fluid" alt="">
 
                             <div class="custom-block-overlay-text d-flex">
                                 <div>
-                                    <h5 class="text-white mb-2">Finance</h5>
+                                    <h5 class="text-white mb-2">Administration base de donnees(mysql)</h5>
 
-                                    <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+                                    <p class="text-white">Analyse <br> Conception <br> participe a la mise en oeuvre des basses de donnees</p>
 
-                                    <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                    <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Plus d'infomations</a>
                                 </div>
 
                                 <span class="badge bg-finance rounded-pill ms-auto">25</span>
                             </div>
 
                             <div class="social-share d-flex">
-                                <p class="text-white me-4">Share:</p>
+                                <p class="text-white me-4">Partager:</p>
 
                                 <ul class="social-icon">
                                     <li class="social-icon-item">
@@ -141,7 +148,7 @@
 
                                     <li class="social-icon-item">
                                         <a href="#" class="social-icon-link bi-facebook"></a>
-                                    </li>Designms-auto"></a>
+                                    </li>Link"></a>
                             </div>
 
                             <div class="section-overlay"></div>
@@ -155,10 +162,10 @@
 
 
     <section class="explore-section section-padding" id="section_2">
-        <div class="container">Design
+        <div class="container">Link
 
                 <div class="col-12 text-center">
-                    <h2 class="mb-4">Browse Topics</h1>
+                    <h2 class="mb-4">Competemces</h1>
                 </div>
 
             </div>
@@ -168,15 +175,15 @@
             <div class="row">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Design</button>
+                        <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Logiciel</button>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Marketing</button>
+                        <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Maketing</button>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Finance</button>
+                        <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Basse de donnees</button>
                     </li>
 
                     <li class="nav-item" role="presentation">
@@ -202,15 +209,15 @@
                                         <a href="topics-detail.html">
                                             <div class="d-flex">
                                                 <div>
-                                                    <h5 class="mb-2">Web Design</h5>
+                                                    <h5 class="mb-2">Application web</h5>
 
-                                                    <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
+                                                    <p class="mb-0">e-commerce e-learning gestion </p>
                                                 </div>
 
                                                 <span class="badge bg-design rounded-pill ms-auto">14</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Remote_design_team_re_urdx.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -220,15 +227,15 @@
                                         <a href="topics-detail.html">
                                             <div class="d-flex">
                                                 <div>
-                                                    <h5 class="mb-2">Graphic</h5>
+                                                    <h5 class="mb-2">Application desktop</h5>
 
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        <p class="mb-0">gestion application bureau ...</p>
                                                 </div>
 
                                                 <span class="badge bg-design rounded-pill ms-auto">75</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Redesign_feedback_re_jvm0.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -238,15 +245,15 @@
                                         <a href="topics-detail.html">
                                             <div class="d-flex">
                                                 <div>
-                                                    <h5 class="mb-2">Logo Design</h5>
+                                                    <h5 class="mb-2">Application mobile </h5>
 
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        <p class="mb-0">e-commerce gestion ...</p>
                                                 </div>
 
                                                 <span class="badge bg-design rounded-pill ms-auto">100</span>
                                             </div>
 
-                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/colleagues-working-cozy-office-medium-shot.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -260,15 +267,15 @@
                                             <a href="topics-detail.html">
                                                 <div class="d-flex">
                                                     <div>
-                                                        <h5 class="mb-2">Advertising</h5>
+                                                        <h5 class="mb-2">Publicites</h5>
 
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        <p class="mb-0">rendre visible vos services et produit</p>
                                                     </div>
 
                                                     <span class="badge bg-advertising rounded-pill ms-auto">30</span>
                                                 </div>
 
-                                                <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                                                <img src="{% static 'images/topics/undraw_online_ad_re_ol62.png' %}" class="custom-block-image img-fluid" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -278,15 +285,15 @@
                                             <a href="topics-detail.html">
                                                 <div class="d-flex">
                                                     <div>
-                                                        <h5 class="mb-2">Video Content</h5>
+                                                        <h5 class="mb-2">Contenu de video</h5>
 
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        <p class="mb-0">Montage video</p>
                                                     </div>
 
                                                     <span class="badge bg-advertising rounded-pill ms-auto">65</span>
                                                 </div>
 
-                                                <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                                <img src="{% static 'images/topics/undraw_Group_video_re_btu7.png' %}" class="custom-block-image img-fluid" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -296,15 +303,15 @@
                                             <a href="topics-detail.html">
                                                 <div class="d-flex">
                                                     <div>
-                                                        <h5 class="mb-2">Viral Tweet</h5>
+                                                        <h5 class="mb-2">message instantane </h5>
 
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        <p class="mb-0"></p>
                                                     </div>
 
                                                     <span class="badge bg-advertising rounded-pill ms-auto">50</span>
                                                 </div>
 
-                                                <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
+                                                <img src="{% static 'images/topics/undraw_viral_tweet_gndb.png' %}" class="custom-block-image img-fluid" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -317,15 +324,15 @@
                                         <a href="topics-detail.html">
                                             <div class="d-flex">
                                                 <div>
-                                                    <h5 class="mb-2">Investment</h5>
+                                                    <h5 class="mb-2">Analyse</h5>
 
-                                                    <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                    <p class="mb-0">recherche et mise en forme</p>
                                                 </div>
 
                                                 <span class="badge bg-finance rounded-pill ms-auto">30</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Finance_re_gnv2.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -333,22 +340,22 @@
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="custom-block custom-block-overlay">
                                         <div class="d-flex flex-column h-100">
-                                            <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg' %}" class="custom-block-image img-fluid" alt="">
 
                                             <div class="custom-block-overlay-text d-flex">
                                                 <div>
-                                                    <h5 class="text-white mb-2">Finance</h5>
+                                                    <h5 class="text-white mb-2">Conception</h5>
 
-                                                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
+                                                    <p class="text-white">mise en forme de la base de donnes </p>
 
-                                                    <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                                    <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3"></a>
                                                 </div>
 
-                                                <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                                <span class="badge bg-finance rounded-pill ms-auto"></span>
                                             </div>
 
                                             <div class="social-share d-flex">
-                                                <p class="text-white me-4">Share:</p>
+                                                <p class="text-white me-4"></p>
 
                                                 <ul class="social-icon">
                                                     <li class="social-icon-item">
@@ -389,7 +396,7 @@
                                                 <span class="badge bg-music rounded-pill ms-auto">45</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Compose_music_re_wpiw.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -407,7 +414,7 @@
                                                 <span class="badge bg-music rounded-pill ms-auto">45</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_happy_music_g6wc.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -425,7 +432,7 @@
                                                 <span class="badge bg-music rounded-pill ms-auto">20</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Podcast_audience_re_4i5q.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -447,7 +454,7 @@
                                                 <span class="badge bg-education rounded-pill ms-auto">80</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Graduation_re_gthn.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -465,7 +472,7 @@
                                                 <span class="badge bg-education rounded-pill ms-auto">75</span>
                                             </div>
 
-                                            <img src="images/topics/undraw_Educator_re_ju47.png" class="custom-block-image img-fluid" alt="">
+                                            <img src="{% static 'images/topics/undraw_Educator_re_ju47.png' %}" class="custom-block-image img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -550,7 +557,7 @@
                 <div class="clearfix"></div>
 
                 <div class="col-lg-5 col-12">
-                    <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                    <img src="{% static 'images/faq_graphic.jpg' %}" class="img-fluid" alt="FAQs">
                 </div>
 
                 <div class="col-lg-6 col-12 m-auto">
